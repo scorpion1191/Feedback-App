@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://anonymousblock.herokuapp.com",
+  "proxy": "https://anonymousblock.herokuapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },

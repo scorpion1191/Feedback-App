@@ -1,0 +1,10 @@
+:root{
+  --primaryColor:#012b72;
+  --secondaryColor:#00b9f5;
+  --whiteColor:#fff;
+  --blackColor:#000;
+}
+body{
+  font-family: Open Sans,arial,tahoma,verdana,sans-serif;
+  font-size: 100%;
+}

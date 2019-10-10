@@ -1,13 +1,11 @@
 {
   "name": "web-tockens",
   "version": "1.0.0",
-  "description": "walk through to JSON web tockens with node express ts",
+  "description": "Feedback Applicaion",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "ts-node index.ts",
-    "start": "nodemon index.js",
-    "prod": "npm run build && npm run start"
+    "start": "tsc && npm install && nodemon index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build”
   },
   "author": "subbu",
   "license": "ISC",

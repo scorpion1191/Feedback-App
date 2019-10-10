@@ -8,7 +8,7 @@ const AuthenticationService = {
             username : username,
             password : password
         }
-        return FetchService.fetchDetails('http://anonymousblock.herokuapp.com/api/login','POST', formdata).then(FetchService.handleResponse)
+        return FetchService.fetchDetails('/api/login','POST', formdata).then(FetchService.handleResponse)
     }
 }
 

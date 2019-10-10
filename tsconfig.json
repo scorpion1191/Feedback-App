@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "baseUrl": "",
+    "strictNullChecks": false,
+    "skipLibCheck":true
+  },
+  "paths": {
+    "tslib" : [
+      "node_modules/tslib/tslib.d.ts"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
